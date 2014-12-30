@@ -26,8 +26,8 @@ AudioOutputAnalog        dac1;
 
 AudioConnection          patchCord1(sine1, sine_fm1);
 AudioConnection          patchCord2(sine_fm1, envelope1);
-AudioConnection          patchCord3(envelope1, biquad1);
-AudioConnection          patchCord4(biquad1, dac1);
+AudioConnection          patchCord3(envelope1, dac1);
+//AudioConnection          patchCord4(biquad1, dac1);
 // GUItool: end automatically generated code
 
 
