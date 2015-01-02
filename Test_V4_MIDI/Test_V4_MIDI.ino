@@ -51,20 +51,14 @@ void loop() {
 }
 
 void OnNoteOn (byte channel, byte note, byte velocity) {
-      
       sine_fm1.frequency(freqs[note]);
       sine1.phase(0);
       sine_fm1.phase(0);
       envelope1.noteOn();
-
 }
-
-
-
 
 void OnNoteOff(byte channel, byte note, byte velocity) {
       envelope1.noteOff();
-
 }
 
 
@@ -74,12 +68,9 @@ void OnControlChange(byte channel, byte control, byte value) {
 // This is for MIDI CC signals.  The CC number itself can be
 // reassigned by changing the first set of case numbers.  (The
 // second just routes the proper channels.)
-  
     if(control == 1)   sine1.frequency(freqs[value]);
     if(control == 72)  envelope1.release(value*2);
-    if(control == 73)  envelope1.attack(value*2);
-    
-      
+    if(control == 73)  envelope1.attack(value*2);    
  }
 
 
