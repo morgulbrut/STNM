@@ -11072,23 +11072,23 @@ type RDH, grid 15 mm</description>
 <library name="tillo">
 <packages>
 <package name="CLIFF_3-5M">
-<pad name="TIP" x="0" y="0" drill="0.8" shape="long"/>
-<pad name="RING" x="0" y="3.81" drill="0.8" shape="long"/>
-<pad name="GROUND" x="0" y="7.62" drill="0.8" shape="long"/>
-<pad name="GROUND1" x="8.89" y="7.62" drill="0.8" shape="long"/>
-<pad name="RING1" x="8.89" y="3.81" drill="0.8" shape="long"/>
-<pad name="TIP1" x="8.89" y="0" drill="0.8" shape="long"/>
-<wire x1="0" y1="-1.27" x2="0" y2="8.89" width="0.127" layer="21"/>
+<pad name="TIP" x="0" y="0" drill="1.3" diameter="2.1844"/>
+<pad name="RING" x="0" y="3.81" drill="1.3" diameter="2.1844" shape="octagon"/>
+<pad name="GROUND" x="0" y="7.62" drill="1.3" diameter="2.1844" shape="square"/>
+<pad name="GROUND1" x="8.89" y="7.62" drill="1.3" diameter="2.1844" shape="square"/>
+<pad name="RING1" x="8.89" y="3.81" drill="1.3" diameter="2.1844" shape="octagon"/>
+<pad name="TIP1" x="8.89" y="0" drill="1.3" diameter="2.1844" rot="R180"/>
 <wire x1="0" y1="8.89" x2="2.54" y2="8.89" width="0.127" layer="21"/>
 <wire x1="2.54" y1="8.89" x2="2.54" y2="10.16" width="0.127" layer="21"/>
 <wire x1="2.54" y1="10.16" x2="6.35" y2="10.16" width="0.127" layer="21"/>
 <wire x1="6.35" y1="10.16" x2="6.35" y2="8.89" width="0.127" layer="21"/>
 <wire x1="6.35" y1="8.89" x2="8.89" y2="8.89" width="0.127" layer="21"/>
-<wire x1="8.89" y1="8.89" x2="8.89" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="8.89" y1="-1.27" x2="0" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="2.54" y1="8.89" x2="2.54" y2="1.27" width="0.127" layer="21"/>
 <wire x1="2.54" y1="1.27" x2="6.35" y2="1.27" width="0.127" layer="21"/>
 <wire x1="6.35" y1="1.27" x2="6.35" y2="8.89" width="0.127" layer="21"/>
+<wire x1="8.89" y1="8.89" x2="8.89" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="0" y1="-1.27" x2="0" y2="8.89" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>

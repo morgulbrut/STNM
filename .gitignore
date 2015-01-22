@@ -20,6 +20,9 @@ $RECYCLE.BIN/
 # Manually excluded
 _*.*
 
+# Eagle junk
+*.*#*
+
 # =========================
 # Operating System Files
 # =========================
